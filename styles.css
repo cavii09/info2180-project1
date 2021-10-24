@@ -9,3 +9,92 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+.container h1{
+    text-align: left;
+  }
+
+.container ul{
+    text-align: right;
+    list-style-type: none;
+    }
+
+.container li{
+    display: inline-block;
+    }
+    
+.container .overview-hero{
+    display: flex;
+    background-color: #E2E8F0;
+    padding: 60px;
+    align-items: center;
+    
+}    
+
+.container .overview-hero-text{
+    /*text-align:right; */
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 150px;     
+     
+}    
+
+/*.overveiw-hero p{
+    text-align: right;
+}*/
+
+.overview-hero img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+}
+
+.learn-about .card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 3px 4px #888888;
+}
+
+.container .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.card img{
+   width: 300px;
+   height: 250px;
+}
+
+.testing{
+    padding: 50px;
+}
+
+.testing-desciption{
+  float: left;
+  padding-right: 40px;
+  margin-left: 15px;
+  margin-right: 5px;     
+}
+
+.testing .cta{
+    display: flex;
+    float: right;
+    margin: 0;
+}
+
+/*.testing .btn{
+    text-decoration: ;
+}*/
+
+.stories img{
+    float: left;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.stories .article{
+   margin-left: 275px;
