@@ -23,22 +23,22 @@ body {
 nav a:hover{
  color:#5A67D8;
 }
-.container h1{
+h1{
     text-align: left;
     font-size: 18px;
-  }
+}
 
-.container ul{
+ul{
     text-align: right;
     list-style-type: none;
-    }
+}
 
-.container li{
+nav li{
     color: #6b7280;
-    display: inline-block;
-    }
+    display: inline;
+}
     
-.container .overview-hero{
+.overview-hero{
     background-color: #E2E8F0;
     padding: 60px;
     align-items: center;
