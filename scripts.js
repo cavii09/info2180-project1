@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Add your JavaScript to this file */
 windows.onload = funtion() 
 {
@@ -17,3 +18,6 @@ windows.onload = funtion()
 
      } 
  )}
+=======
+/* Add your JavaScript to this file */
+>>>>>>> main
