@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Add your JavaScript to this file */
 windows.onload = funtion() 
 {
@@ -6,10 +5,10 @@ windows.onload = funtion()
   btn.addEventListener("click", function(e){
      e.preventDefault();
   var email = document.getElementById("email");
-  var message = document.getElementsByClassName("message");
+  var message = document.getElementsByClassName("message")[0];
 
   if (email.value != ""){
-      message.textContent = "Thank you! Your email address ${newemail} had been added to our mailing list!"
+      message.textContent = "Thank you! Your email address ${email} had been added to our mailing list!"
   }    
   else
   {
@@ -18,6 +17,3 @@ windows.onload = funtion()
 
      } 
  )}
-=======
-/* Add your JavaScript to this file */
->>>>>>> main
