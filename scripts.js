@@ -6,18 +6,14 @@ windows.onload = funtion()
      e.preventDefault();
   var email = document.getElementById("email");
   var message = document.getElementsByClassName("message");
-  
-  var email =newemail.value;
 
-  if (email=='email'){
-      alert("Thank you! Your email address ${newemail} had been added to our mailing list!")
-      return false;
-    }    
+  if (email.value != ""){
+      message.textContent = "Thank you! Your email address ${newemail} had been added to our mailing list!"
+  }    
   else
   {
-      alert("Please enter a valid email address.")
+      message.textContent = "Please enter a valid email address."
   }
-
 
      } 
  )}
